@@ -4,7 +4,7 @@
 
 ✨ Telegram Music Bot With Audio Effects ✨
 
-<a href="https://heroku.com/deploy?template=https://github.com/YOUR_USERNAME/YOUR_REPO">
+<a href="https://heroku.com/deploy?template=https://github.com/yashcodex121/telegrambot">
 <img src="https://www.herokucdn.com/deploy/button.svg">
 </a>
 
