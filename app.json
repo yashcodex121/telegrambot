@@ -1,0 +1,42 @@
+{
+  "name": "Music Effect Bot",
+  "description": "Telegram Music Bot With Audio Effects",
+  "logo": "https://i.imgur.com/yourbanner.jpg",
+  "keywords": [
+    "telegram",
+    "musicbot",
+    "pyrogram",
+    "ffmpeg"
+  ],
+  "website": "https://t.me/Brucerich12",
+  "repository": "https://github.com/yashcodex121/telegrambot",
+  "success_url": "https://t.me/Brucerich12",
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API HASH",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot Token",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
