@@ -20,7 +20,7 @@ BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 OWNER_USERNAME = "https://t.me/Brucerich12"
 
-START_IMAGE = "https://i.imgur.com/yourbanner.jpg"
+START_IMAGE = "https://files.catbox.moe/3jrvyp.jpg"
 
 # =========================
 # BOT CLIENT
