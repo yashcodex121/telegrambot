@@ -14,9 +14,9 @@ from yt_dlp import YoutubeDL
 # CONFIG
 # =========================
 
-API_ID = 123456
-API_HASH = "YOUR_API_HASH"
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 OWNER_USERNAME = "https://t.me/Brucerich12"
 
