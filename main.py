@@ -18,7 +18,7 @@ API_ID = 123456
 API_HASH = "YOUR_API_HASH"
 BOT_TOKEN = "YOUR_BOT_TOKEN"
 
-OWNER_USERNAME = "https://t.me/YOUR_USERNAME"
+OWNER_USERNAME = "https://t.me/Brucerich12"
 
 START_IMAGE = "https://i.imgur.com/yourbanner.jpg"
 
